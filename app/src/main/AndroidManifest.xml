@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fajardo.brayan.popcornfactory">
+    package="fajardo.ortiz.popcornfactory">
 
     <application
         android:allowBackup="true"
@@ -9,9 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PopCornFactory">
-        <activity android:name="fajardo.brayan.popcornfactory.menu"></activity>
-        <activity android:name="fajardo.brayan.popcornfactory.DetallePelicula" />
-        <activity android:name="fajardo.brayan.popcornfactory.MainActivity">
+        <activity android:name="fajardo.ortiz.popcornfactory.DetalleCompra"></activity>
+        <activity android:name="fajardo.ortiz.popcornfactory.SeatsSelection" />
+        <activity android:name="fajardo.ortiz.popcornfactory.menu" android:launchMode="singleTask"/>
+        <activity android:name="fajardo.ortiz.popcornfactory.DetallePelicula" />
+        <activity android:name="fajardo.ortiz.popcornfactory.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
